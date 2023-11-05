@@ -36,6 +36,8 @@ This environment variable must be set to the location of the `liboqs` installati
 utilized in the build.
 By default, this is un-set, requiring installation of `liboqs` in a standard
 location for the OS.
+This uses the [`find_package`](https://cmake.org/cmake/help/latest/command/find_package.html)
+command in `cmake`, which checks for local builds of a package at `<PackageName>_DIR`
 
 ### USE_ENCODING_LIB
 
@@ -48,6 +50,13 @@ The default value is `OFF`.
 
 By setting this to "ON", it can be specified to omit explicitly serializing
 the public key in a `privateKey` structure, e.g., for interoperability testing.
+The default value is `OFF`.
+
+### OQS_KEM_ENCODERS
+
+By setting this to "ON", `oqsprovider` is configured to provide encoders and decoders for
+KEM algorithms both for public and private key file formats. This increases the size of
+the provider but enables further use cases.
 The default value is `OFF`.
 
 ### OQS_PROVIDER_BUILD_STATIC
@@ -103,8 +112,8 @@ code deficiencies related to providers in such old OpenSSL branches.
 
 This defines the branch of `liboqs` against which `oqs-provider` is built.
 This can be used, for example, to facilitate a release of `oqsprovider`
-to track an old/stable `liboqs` release.
-Default is "main" (most current code).
+to track an old/stable `liboqs` release. If this variable is not set, the
+"main" branch is built.
 
 ### liboqs_DIR
 
@@ -113,17 +122,17 @@ used from the directory specified in this variable: Both `include`
 and `lib` directories must be present in that location.
 By not setting this variable, `liboqs` is build from source.
 
-### LIBOQS_BRANCH
-
-If set, this environment variable designates the `liboqs` branch to
-be built. If this variable is not set, the "main" branch is built.
-
 ### MAKE_PARAMS
 
 This environment variable permits passing parameters to the `make`
 command used to build `openssl`, e.g., "-j 8" to activate 8-fold
 parallel builds to reduce the compilation time on a suitable multicore
 machine.
+
+### OQSPROV_CMAKE_PARAMS
+
+This environment variable permits passing parameters to the `cmake`
+command used to build `oqsprovider`.
 
 ### OQS_SKIP_TESTS
 

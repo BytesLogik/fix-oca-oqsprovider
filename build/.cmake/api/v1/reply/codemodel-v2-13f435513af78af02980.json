@@ -1,0 +1,139 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "oqsprov",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-oqsprov-Debug-6c33a49ca40322b8c9c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "oqsprov",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "oqs-provider",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "oqs_test_endecode::@36f028580bb02cc8272a",
+					"jsonFile" : "target-oqs_test_endecode-Debug-7d0e16e09d9882ee185f.json",
+					"name" : "oqs_test_endecode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "oqs_test_groups::@36f028580bb02cc8272a",
+					"jsonFile" : "target-oqs_test_groups-Debug-d77f0aa4d600e54584f3.json",
+					"name" : "oqs_test_groups",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "oqs_test_kems::@36f028580bb02cc8272a",
+					"jsonFile" : "target-oqs_test_kems-Debug-666dd476db49580e0dc1.json",
+					"name" : "oqs_test_kems",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "oqs_test_signatures::@36f028580bb02cc8272a",
+					"jsonFile" : "target-oqs_test_signatures-Debug-584f6325fb6e54ab01dd.json",
+					"name" : "oqs_test_signatures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "oqs_test_tlssig::@36f028580bb02cc8272a",
+					"jsonFile" : "target-oqs_test_tlssig-Debug-7ddf047ee830d33ac425.json",
+					"name" : "oqs_test_tlssig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oqsprovider::@62bdc385c757a3a83f19",
+					"jsonFile" : "target-oqsprovider-Debug-25b68750fee7ceda369a.json",
+					"name" : "oqsprovider",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+		"source" : "/home/trigpolynom/crypto/fix-oca-oqsprovider"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

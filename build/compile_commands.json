@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqsprov.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqsprov_capabilities.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov_capabilities.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov_capabilities.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqsprov_keys.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov_keys.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov_keys.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqs_kmgmt.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_kmgmt.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_kmgmt.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqs_sig.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_sig.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_sig.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqs_kem.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_kem.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_kem.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqs_encode_key2any.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_encode_key2any.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_encode_key2any.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqs_endecoder_common.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_endecoder_common.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_endecoder_common.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqs_decode_der2key.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_decode_der2key.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqs_decode_der2key.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -DOQSPROVIDER_VERSION_TEXT=\\\"0.5.2-dev\\\" -DOQS_PROVIDER_COMMIT=\"\\\" (3750149)\\\"\" -Doqsprovider_EXPORTS -isystem /usr/local/include/oqs -g -fPIC -Wunused-function -std=gnu11 -o oqsprov/CMakeFiles/oqsprovider.dir/oqsprov_bio.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov_bio.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/oqsprov/oqsprov_bio.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_signatures.dir/oqs_test_signatures.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_signatures.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_signatures.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_signatures.dir/test_common.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_kems.dir/oqs_test_kems.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_kems.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_kems.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_kems.dir/test_common.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_groups.dir/oqs_test_groups.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_groups.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_groups.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_groups.dir/test_common.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_groups.dir/tlstest_helpers.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/tlstest_helpers.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/tlstest_helpers.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_tlssig.dir/oqs_test_tlssig.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_tlssig.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_tlssig.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_tlssig.dir/test_common.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_tlssig.dir/tlstest_helpers.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/tlstest_helpers.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/tlstest_helpers.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_endecode.dir/oqs_test_endecode.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_endecode.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/oqs_test_endecode.c"
+},
+{
+  "directory": "/home/trigpolynom/crypto/fix-oca-oqsprovider/build",
+  "command": "/usr/bin/gcc-12 -I/usr/local/include/oqs -g -Wunused-function -std=gnu11 -o test/CMakeFiles/oqs_test_endecode.dir/test_common.c.o -c /home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c",
+  "file": "/home/trigpolynom/crypto/fix-oca-oqsprovider/test/test_common.c"
+}
+]
